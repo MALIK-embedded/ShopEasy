@@ -8,7 +8,7 @@ password = input("Enter password : ")
 if name == username and password == passkey :
     print()
     print("Login Successful!")
-    print("Welcome To ShopEasy.")
+    print(f"Welcome Back, {name}")
 elif name != username and password == passkey :
     print()
     print("Invalid Username.")
