@@ -1,0 +1,23 @@
+products = ["Laptop" , "Phone" , "Keyboard" , "Mouse"]
+print("=" * 50)
+print("            SHOPEASY")
+print("=" * 50)
+print()
+print("Available Products :")
+print()
+print(f"1. {products[0]}")
+print(f"2. {products[1]}")
+print(f"3. {products[2]}")
+print(f"4. {products[3]}")
+print()
+print(f"Total products : {len(products)}")
+n= int(input("Enter Product Number : "))
+print()
+if n <= 0 or n > len(products) :
+    print("Invalid Product Number.")
+else  :
+    print("✓ Product Selected Successfully!")
+    print(f"You Selected : {products[n-1]}")
+    print()
+    print("Thank you for shopping with ShopEasy!")
+print("=" * 50)
